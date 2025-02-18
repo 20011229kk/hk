@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.9.9 on darwin)" generated="2025-02-07T16:02:09.950702" rpa="false" schemaversion="5">
+<suite id="s1" name="Cursor Test" source="/Users/cursor_test">
+<suite id="s1-s1" name="Test Example" source="/Users/cursor_test/test_example.robot">
+<test id="s1-s1-t1" name="Should send keys to search box and then check the value" line="12">
+<kw name="Open Test Application">
+<kw name="Open Application">
+<msg time="2025-02-07T16:02:09.967690" level="FAIL">No keyword with name 'Open Application' found. Did you mean:
+    Open Test Application</msg>
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>automationName=${ANDROID_AUTOMATION_NAME}</arg>
+<arg>platformName=${ANDROID_PLATFORM_NAME}</arg>
+<arg>platformVersion=${ANDROID_PLATFORM_VERSION}</arg>
+<arg>app=${ANDROID_APP}</arg>
+<arg>appPackage=io.appium.android.apis</arg>
+<arg>appActivity=.app.SearchInvoke</arg>
+<status status="FAIL" start="2025-02-07T16:02:09.967232" elapsed="0.000563">No keyword with name 'Open Application' found. Did you mean:
+    Open Test Application</status>
+</kw>
+<status status="FAIL" start="2025-02-07T16:02:09.966503" elapsed="0.001811">No keyword with name 'Open Application' found. Did you mean:
+    Open Test Application</status>
+</kw>
+<kw name="Input Search Query">
+<arg>Hello World!</arg>
+<status status="NOT RUN" start="2025-02-07T16:02:09.968443" elapsed="0.000223"/>
+</kw>
+<kw name="Submit Search">
+<status status="NOT RUN" start="2025-02-07T16:02:09.968795" elapsed="0.000052"/>
+</kw>
+<kw name="Search Query Should Be Matching">
+<arg>Hello World!</arg>
+<status status="NOT RUN" start="2025-02-07T16:02:09.968946" elapsed="0.000045"/>
+</kw>
+<status status="FAIL" start="2025-02-07T16:02:09.966046" elapsed="0.003076">No keyword with name 'Open Application' found. Did you mean:
+    Open Test Application</status>
+</test>
+<doc>Simple example using AppiumLibrary</doc>
+<status status="FAIL" start="2025-02-07T16:02:09.964041" elapsed="0.005640"/>
+</suite>
+<status status="FAIL" start="2025-02-07T16:02:09.952694" elapsed="0.017937"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Cursor Test">Cursor Test</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Test Example">Cursor Test.Test Example</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-07T16:02:09.965316" level="ERROR">Error in file '/Users/cursor_test/test_example.robot' on line 3: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'AppiumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/cursor_test/lib
+  /Users/cursor_test/resources
+  /Users/admin/.cursor/extensions/d-biehl.robotcode-0.108.1/bundled/libs
+  /Users/admin/.cursor/extensions/d-biehl.robotcode-0.108.1/bundled/tool/robotcode
+  /Library/Frameworks/Python.framework/Versions/3.9/lib/python39.zip
+  /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9
+  /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+</errors>
+</robot>

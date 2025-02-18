@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.1 on darwin)" generated="2025-02-06T14:49:30.249391" rpa="false" schemaversion="5">
+<suite id="s1" name="Messi" source="/Users/cursor_test/TestCommon/messi.robot">
+<test id="s1-t1" name="百度搜索梅西并跳转到详情页面" line="9">
+<kw name="打开浏览器并访问百度">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-02-06T14:49:30.307948" level="INFO">Opening browser 'Chrome' to base url 'https://www.baidu.com'.</msg>
+<msg time="2025-02-06T14:49:30.445554" level="WARN">The chromedriver version (131.0.6778.85) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (132.0.6834.160); currently, chromedriver 132.0.6834.159 is recommended for chrome 132.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-06T14:49:30.307799" elapsed="2.964487"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-02-06T14:49:33.272699" elapsed="0.571683"/>
+</kw>
+<status status="PASS" start="2025-02-06T14:49:30.307436" elapsed="3.537067"/>
+</kw>
+<kw name="输入搜索内容并点击搜索按钮">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=kw</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-02-06T14:49:33.845175" elapsed="0.061981"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-06T14:49:33.907411" level="INFO">Typing text '梅西' into text field 'id=kw'.</msg>
+<arg>id=kw</arg>
+<arg>梅西</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-06T14:49:33.907281" elapsed="0.100463"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-06T14:49:34.007999" level="INFO">Clicking element 'id=su'.</msg>
+<arg>id=su</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-06T14:49:34.007879" elapsed="0.040382"/>
+</kw>
+<status status="PASS" start="2025-02-06T14:49:33.844746" elapsed="0.203595"/>
+</kw>
+<kw name="验证跳转到搜索结果页面">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>梅西</arg>
+<arg>10s</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2025-02-06T14:49:34.048615" elapsed="1.350794"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-02-06T14:49:35.414742" level="INFO">Current page contains text '梅西'.</msg>
+<arg>梅西</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-02-06T14:49:35.399524" elapsed="0.015278"/>
+</kw>
+<status status="PASS" start="2025-02-06T14:49:34.048472" elapsed="1.366429"/>
+</kw>
+<kw name="等待搜索完成并关闭浏览器">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-06T14:49:55.415663" level="INFO">Slept 20 seconds.</msg>
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-06T14:49:35.415199" elapsed="20.000793"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-02-06T14:49:55.416584" elapsed="0.116835"/>
+</kw>
+<status status="PASS" start="2025-02-06T14:49:35.415054" elapsed="20.118450"/>
+</kw>
+<status status="PASS" start="2025-02-06T14:49:30.306490" elapsed="25.227146"/>
+</test>
+<status status="PASS" start="2025-02-06T14:49:30.250383" elapsed="25.283541"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Messi">Messi</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-06T14:49:30.445554" level="WARN">The chromedriver version (131.0.6778.85) detected in PATH at /opt/homebrew/bin/chromedriver might not be compatible with the detected chrome version (132.0.6834.160); currently, chromedriver 132.0.6834.159 is recommended for chrome 132.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fcf6e578-f934-4ee7-8317-d4f6985ff043" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2mEha74xe4THp5hibImej65xJBw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01-json数据格式.executor": "Run",
+    "Python.01-演示异常的出现.executor": "Run",
+    "Python.01-类和对象.executor": "Run",
+    "Python.02-pyecharts的基础入门.executor": "Run",
+    "Python.02-构造方法.executor": "Run",
+    "Python.03-其他内置方法.executor": "Run",
+    "Python.03-地图可视化的基本使用.executor": "Run",
+    "Python.03-折线图的开发.executor": "Run",
+    "Python.04-封装.executor": "Run",
+    "Python.04-模块的导入.executor": "Run",
+    "Python.04-疫情地图可视化.executor": "Run",
+    "Python.05-基本柱状图.executor": "Run",
+    "Python.05-封装练习.executor": "Run",
+    "Python.06-基础时间线状图.executor": "Run",
+    "Python.06-继承的语法.executor": "Run",
+    "Python.07-GDP动态柱状图.executor": "Run",
+    "Python.07-继承复写和使用父类成员.executor": "Run",
+    "Python.4.嵌套的选择方法-节点选择器.executor": "Run",
+    "Python.5.关联选择的方法-节点选择器.executor": "Run",
+    "Python.demo01.executor": "Run",
+    "Python.下载图片和文件.executor": "Run",
+    "Python.修改响应状态码.executor": "Run",
+    "Python.提取信息的方法.executor": "Run",
+    "Python.获取from表单数据.executor": "Run",
+    "Python.获取json请求体数据.executor": "Run",
+    "Python.认识选择器.executor": "Run",
+    "Python.返回html网页.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/python/黑马"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcf6e578-f934-4ee7-8317-d4f6985ff043" name="Changes" comment="" />
+      <created>1726647703640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726647703640</updated>
+    </task>
+    <servers />
+  </component>
+</project>
